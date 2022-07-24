@@ -1,0 +1,34 @@
+
+
+.thumbnail-img{
+    background-color: #999;
+    height: 158px;
+    width: 100%;
+}
+
+.user-info{
+    margin-top: 10px;
+    display: flex;
+    font-size: 11px;
+    gap: 10px;
+}
+.channel-name{
+    font-weight: 600;
+    color: gray;
+    padding: 2px 0px;
+}
+.view-text{
+    text-align: center;
+}
+.profile-img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.user-info span{
+    display: block;
+}
+

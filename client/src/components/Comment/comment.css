@@ -1,0 +1,23 @@
+.comment{
+    display: flex;
+    gap: 10px;
+}
+
+
+.comment-name{
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.comment-date{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.comment-desc{
+    font-size: 14px;
+    margin-top: 5px;
+}

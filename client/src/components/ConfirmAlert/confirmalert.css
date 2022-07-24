@@ -1,0 +1,50 @@
+.confirm-alert-container{
+    background-color: #000000a7;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.confirm-alert-wrapper  {
+    background-color: #fff;
+    width: 270px;
+}
+
+.unsub-info{
+    padding: 20px 0px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.confirm-alert-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 0px;
+}
+
+.unsub-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:#0961D5;
+    font-weight: 600;
+
+}
+
+.cancel-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:#858585;
+    font-weight: 600;
+
+}

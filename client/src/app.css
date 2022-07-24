@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+}
+ 
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    flex: 6;
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+

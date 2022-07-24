@@ -1,0 +1,90 @@
+input{
+    border: none;
+}
+input:focus{
+    outline: 0;
+}
+
+.navbar{
+    z-index: 9999;
+    background-color: white;
+    position: sticky;
+    height: 56px;
+    top: 0;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo{
+    width: 32px;
+}
+
+.nav-title{
+    font-size: 18px;
+}
+
+.nav-center{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.nav-center input{
+    padding: 7px 5px;
+    width: 100%;
+}
+
+.nav-right button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    color: #3ea6ff;
+    background-color: #fff;
+    border: 1px solid #3ea6ff;
+    cursor: pointer;
+}
+
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-img{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.username{
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+    .nav-center{
+        display: none;
+    }
+}

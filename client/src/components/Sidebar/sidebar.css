@@ -1,0 +1,76 @@
+.sidebar{
+    flex:1;
+    position: fixed;
+    top: 56px;
+    padding-right: 15px;
+    background-color: white;
+    height: calc(100vh - 56px);
+    min-width: 250px;
+    z-index: 998;
+    transition: .2s all ease;
+    display: none;
+}
+
+.sidebar.show{
+    display: unset;
+}
+
+
+.sidebar:hover{
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar{
+    width: 5px;
+    height: 10px;
+    background-color: lightgray;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background:darkgray;
+    border-radius:5px;
+}
+
+
+
+.sidebar-list{
+    padding: 10px 0px;
+}
+
+
+
+.sidebar-list:nth-child(3){
+    padding: 10px 20px;
+}
+
+
+
+.signin-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #3ea6ff;
+    background-color: #fff;
+    border: 1px solid #3ea6ff;
+    cursor: pointer;
+}
+.sidebar-list-item{
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sidebar-list-item:hover{
+    background-color: darkgray;
+}
+.sidebar-list-item span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+}
